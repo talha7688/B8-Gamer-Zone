@@ -1,0 +1,184 @@
+nav {
+    background-color: rgb(245, 241, 243);
+    height: 130px;
+}
+
+.nav-logo {
+    display: flex;
+    text-align: center;
+    padding: 44px 240px;
+    gap: 10px;
+}
+
+.nav-items ul {
+    display: flex;
+    text-align: center;
+    gap: 32px;
+    padding: 54px 240px;
+    font-size: 19px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 30px;
+}
+
+.nav-img {
+    width: 87px;
+    height: 40px;
+    padding: 20px 0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.youtube-logo {
+    width: 34px;
+    height: 24px;
+}
+
+.tiktok-logo {
+    width: 24px;
+    height: 24px;
+}
+
+.follow-list {
+    display: flex;
+    gap: 20px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 262px;
+    height: 56px;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.follow-list li,
+img {
+    padding: 7px;
+}
+
+.gamer-color {
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* banner section */
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 240px;
+    background-image: url(./images/Group\ 14.png);
+    background-repeat: no-repeat;
+}
+
+.banner-description {
+    font-size: 30px;
+}
+.banner-img{
+    display: flex;
+}
+
+.primary-color {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.primary-btn {
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    color: azure;
+}
+
+.rogue-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 48px;
+    border: none;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: azure;
+}
+.btn{
+    padding-top: 30px;
+}
+/* we are gamers section */
+
+.gamer-container{
+    display: flex;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 240px;
+    text-align: right;
+    font-size: 20px;
+}
+.know-more{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F948B2;
+    color: azure;
+    cursor: pointer;
+}
+.our-purpose{
+    font-size: 25px;
+}
+/* online games  */
+
+.online-games-container{
+    text-align: center;
+    padding: 128px 240px;
+    font-size: 20px;
+}
+.online-games{
+    display: flex;
+    padding-top: 20px;
+}
+/* instant play  */
+.play-container{
+    display: flex;
+    align-items: center;;
+    justify-content: space-between;
+    padding: 50px 240px;
+    font-size: 30px;
+}
+.small-img{
+    position: relative;
+    bottom: 200px;
+    right: 100px;
+    
+}
+.play-img img{
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
